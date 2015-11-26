@@ -1,0 +1,10 @@
+language: python
+
+# We support 2.7, and the two most recent 3.0 versions.
+python:
+    - "3.5"
+    - "3.4"
+    - "2.7"
+
+install: "pip install -r requirements.txt"
+script: "python tests.py"
