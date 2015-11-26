@@ -29,3 +29,12 @@ TODO: This
 ### From Source
 
 TODO: This
+
+## How to start hacking
+
+``` bash
+$ git clone https://github.com/MicroMote/Server
+$ virtualenv env
+$ env/bin/activate
+$ pip install -r requirements
+```
